@@ -1,0 +1,11 @@
+[package]
+name = "gdlauncher-challenge"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "gdlauncher_challenge"
+path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1.0.48"
